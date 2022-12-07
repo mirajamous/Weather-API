@@ -1,0 +1,57 @@
+$blue-300:#fff;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 1s ease-in;
+  background-color: #b3d9ff;
+  font-family: 'Raleway ';
+}
+
+.app__header,
+.app__main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway ';
+}
+.app__header img{
+  width:20%;
+}
+
+.navbar ,.container-fluid ,.form-control{
+  background-color:#80aaff ;
+  font-family: 'Raleway ';
+}
+
+/*  Search bar */
+
+.form-control{
+  color: #80aaff;
+}
+
+.icon{
+  width: 100%; 
+  height: 50px;
+}
+
+.cityNamee{
+  // text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Raleway ';
+}
+
+
+
+/* Current weather */
+
+
+
+/* Future weather */
